@@ -161,3 +161,28 @@ a {
   border-top: 0;
   border-bottom: 0;
 }
+
+.screenshots {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.screenshots figure {
+  width: 220px; /* размер скриншота */
+  margin: 0;
+}
+
+.screenshots img {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  display: block;
+}
+
+.screenshots figcaption {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 6px;
+}
